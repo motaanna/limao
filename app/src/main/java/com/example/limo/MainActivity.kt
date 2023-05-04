@@ -17,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -52,7 +53,7 @@ fun Limonada() {
 
 
         Text(
-            text = "Toque no limoeiro para selecionar um limão",
+            text = stringResource(R.string.limoeiro),
             textAlign = TextAlign.Center,
             fontSize = 19.sp,
             modifier = Modifier
